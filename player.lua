@@ -1,5 +1,9 @@
 -- Replace every function there by the ones existing in your file -> qb-core/server/player.lua
 
+-- READ THIS
+-- !!! I'm USING quasar exports here !!!
+-- !!! If you are using qb-inventory replace qs-inventory by qb-inventory !!!
+
 function self.Functions.AddMoney(moneytype, amount, reason)
         source = self.PlayerData.source
         reason = reason or 'unknown'
